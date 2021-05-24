@@ -1,0 +1,36 @@
+
+*
+{
+margin: 0;
+padding: 0;
+}
+
+#pictureEtt
+{
+
+    background-color: red;
+    height: 60vh;
+    width: 32vw;
+    float: left;
+    margin-left: 18px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#pictureTwo
+{
+width: 32vw;
+height: 60vh;
+background-color: midnightblue;
+float: left;
+margin-right: 20px;
+margin-top: 20px;
+}
+#pictureTre
+{
+    height: 60vh;
+    width: 32vw;
+    background-color: green;
+    float: left;
+    margin-top: 20px;
+}
