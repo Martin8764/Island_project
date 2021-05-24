@@ -5,16 +5,18 @@ margin: 0;
 padding: 0;
 }
 
+
 #pictureEtt
 {
 
-    background-color: red;
+    
     height: 45vh;
     width: 32vw;
     float: left;
     margin-left: 18px;
     margin-right: 20px;
     margin-top: 20px;
+    background-image:url("https://hekla.com/blog/wp-content/uploads/2019/03/blue-Lagoon-post-2.jpg")
 }
 
 #pictureTwo
