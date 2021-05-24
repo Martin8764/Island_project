@@ -1,52 +1,64 @@
 
 *{
-    padding:0;
-    margin:0;
+padding:0;
+margin-top:1%;
+margin-bottom:1%;
+margin-left:2%;
+margin-right:4%;
 }
-body
-{
+body{
+background:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F818951513474487524%2F&psig=AOvVaw2ucLzIY-zVAT3rGQvM_Xyd&ust=1611656028293000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiQ0M_stu4CFQAAAAAdAAAAABAJ);
+background-size:cover;    
 
-background-image:url();
-background-repeat: no-repeat;
-background-size: cover;
 }
-
-
-#pictureEtt
-{
-
-    
-    width: 32%;
-    height: 45vh;
-    float: left;
-    margin-left: 18px;
-    margin-right: 20px;
-    margin-top: 20px;
-    background-image:url("https://hekla.com/blog/wp-content/uploads/2019/03/blue-Lagoon-post-2.jpg")
+#Logo {
+width:93%;
+height:20vh;
+background-color:grey;
 }
+#Header {
+width:93%;
+height:40vh;
+background-color:grey;
+text-align: center;
+float:left;
+}
+#Intro {
+width:93%;
+height:30vh;
+background-color:gray;
+text-align: center;
+float:left;
 
-#pictureTwo
-{
-width: 32%;
-height: 45vh;
-background-color: midnightblue;
-float: left;
-margin-right: 20px;
-margin-top: 20px;
 }
-#pictureTre
-{
-    width: 32%;
-    height: 45vh;
-    background-color: green;
-    float: left;
-    margin-top: 20px;
+#Box1 {
+width:27%;
+height:80vh;
+background-color: grey;
+text-align: center;
+float:left;
+
 }
-#text1{
-    background-color: lightgrey;
-    width: 614.4px;
-    height: 468.5px;
-    float:left;
-    margin-top:20px;
-    margin-left:18px;
+#Box2 {
+width:27%;
+height:80vh;
+background-color: grey;
+text-align: center;
+float:left;
+
+}
+#Box3 {
+width:27%;
+height:80vh;
+background-color: grey;
+text-align: center;
+float:left;
+
+}
+#Footer {
+width:93%;
+height:10vh;
+background-color:gray;
+text-align: center;
+float:left;
 }
