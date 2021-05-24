@@ -1,5 +1,14 @@
 
+*{
+    padding:0;
+    margin:0;
+}
+body
 {
+
+background-image:url();
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 
@@ -32,4 +41,12 @@ margin-top: 20px;
     background-color: green;
     float: left;
     margin-top: 20px;
+}
+#text1{
+    background-color: lightgrey;
+    width: 32vw;
+    height: 50vh;
+    float:left;
+    margin-top:20px;
+    margin-left:18px;
 }
