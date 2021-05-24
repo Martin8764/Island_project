@@ -16,8 +16,8 @@ background-size: cover;
 {
 
     
-    height: 45vh;
-    width: 32vw;
+    width: 614.4px;
+    height: 421.65px;
     float: left;
     margin-left: 18px;
     margin-right: 20px;
@@ -27,8 +27,8 @@ background-size: cover;
 
 #pictureTwo
 {
-width: 32vw;
-height: 45vh;
+width: 614.4px;
+height: 421.65px;
 background-color: midnightblue;
 float: left;
 margin-right: 20px;
@@ -36,16 +36,16 @@ margin-top: 20px;
 }
 #pictureTre
 {
-    height: 45vh;
-    width: 32vw;
+    width: 614.4px;
+    height: 421.65px;
     background-color: green;
     float: left;
     margin-top: 20px;
 }
 #text1{
     background-color: lightgrey;
-    width: 32vw;
-    height: 50vh;
+    width: 614.4px;
+    height: 468.5px;
     float:left;
     margin-top:20px;
     margin-left:18px;
