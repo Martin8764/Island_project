@@ -16,8 +16,8 @@ background-size: cover;
 {
 
     
-    width: 614.4px;
-    height: 421.65px;
+    width: 32%;
+    height: 45vh;
     float: left;
     margin-left: 18px;
     margin-right: 20px;
@@ -27,8 +27,8 @@ background-size: cover;
 
 #pictureTwo
 {
-width: 614.4px;
-height: 421.65px;
+width: 32%;
+height: 45vh;
 background-color: midnightblue;
 float: left;
 margin-right: 20px;
@@ -36,8 +36,8 @@ margin-top: 20px;
 }
 #pictureTre
 {
-    width: 614.4px;
-    height: 421.65px;
+    width: 32%;
+    height: 45vh;
     background-color: green;
     float: left;
     margin-top: 20px;
