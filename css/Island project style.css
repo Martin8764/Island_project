@@ -19,7 +19,7 @@ background-size:cover;
         opacity:85%;
     }
     .sidenav { 
-        height: 139vh; /* ta bort för "auto" height */
+        height: 135.5vh; /* ta bort för "auto" height */
         width: 25%; 
         z-index: 1;
         top: 0;
@@ -58,8 +58,10 @@ background-size:cover;
         text-align: center;
         float:left;
         opacity:99%;
-        background-image: url("https://allgoodtales.com/wp-content/uploads/2019/05/Iceland-header.gif");
+        background-image: url("https://ak.picdn.net/shutterstock/videos/8959657/thumb/1.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
+
     }
     #Introduction {
         width:60%;
