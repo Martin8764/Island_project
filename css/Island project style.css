@@ -120,20 +120,8 @@
         margin-right:4%;
         
     }
-    
-    #Footer {
-        width:85%;
-        height:10%;
-        background-color:#ffffff;
-        text-align: center;
-        float:left;
-        opacity:85%;
-        margin-top: 2%;
-    margin-bottom:2%;
-    margin-left:6%;
-    margin-right:4%;
-    
-    }   
+   
+    /* Text för introduction*/
     p
     {
         margin-left: 125px;
