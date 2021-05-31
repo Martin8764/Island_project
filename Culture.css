@@ -20,7 +20,8 @@
     margin-bottom:2%;
     margin-left:10%;
     margin-right:4%;
-    opacity: 90%;
+    opacity: 85%;
+    font-size: 200%;
     }
     #Header {
     width:80%;
@@ -47,6 +48,7 @@
     margin-left:10%;
     margin-right:4%;
     opacity: 85%;
+    font-size: 150%;
     }
     
     #Footer {
