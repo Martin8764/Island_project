@@ -11,7 +11,7 @@ background-size:cover;
 }
     #div1 {
         width:85%;
-        height:20vh;
+        height:20%;
         background-color:#ffffff;
         opacity:85%;
         margin-top:2%;
@@ -23,7 +23,7 @@ background-size:cover;
 
     }
     .sidenav { 
-        height: 135.5vh; /* ta bort för "auto" height */
+        height: 137%; /* ta bort för "auto" height */
         width: 25%; 
         z-index: 1;
         top: 0;
@@ -63,7 +63,7 @@ background-size:cover;
     }
     #Header {
         width:56%;
-        height:35vh;
+        height:35%;
         background-color:#ffffff;
         text-align: center;
         float:left;
@@ -78,7 +78,7 @@ background-size:cover;
     }
     #Introduction {
         width:56%;
-        height:925px;
+        height:100%;
         background-color:#ffffff;
         text-align: center;
         float:left;
@@ -91,7 +91,7 @@ background-size:cover;
     }
     #Footer {
         width:85%;
-        height:10vh;
+        height:10%;
         background-color:#ffffff;
         text-align: center;
         float:left;
