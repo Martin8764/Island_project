@@ -60,7 +60,7 @@
     /*Placerar "stäng" knappen i högra hörnet*/
     .sidenav .closebtn {   /*Värderna skulle behövas att ändras*/
         position: absolute;
-        top: 16%;
+        top: 16%; 
         left: 4%;
         font-size: 36px;
         margin-left: 50px;
@@ -129,5 +129,11 @@ span
     margin-left:6%;
     margin-right:4%;
     
+    }   
+    p
+    {
+        margin-left: 125px;
+        margin-right: 125px;
+        font-size:125%;
     }
    
