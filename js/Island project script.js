@@ -4,5 +4,5 @@ function openNav() {
 }
 // Ställer in sidans navigationsbredd till 0
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.width = "316";
 }
