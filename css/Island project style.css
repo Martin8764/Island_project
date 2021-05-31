@@ -22,41 +22,55 @@
     text-align: center;
 
     }
+    /* sidans navigeringsmeny */
     .sidenav { 
         height: 136%;
-        width: 25%; 
+        width: 25%; /* skulle behövas ändra med javaskrift istället */
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #ffffff; 
-        overflow-x: hidden;
+        background-color: #ffffff; /* Vit färg*/
+        overflow-x: hidden; /* detta tar bort lodrät scroll*/
         padding-top: 20px;
-        float:left;
+        float:left; 
         opacity:85%;
+        transition: 0.5s;
         
-    margin-bottom:1%;
-    margin-left:6%;
-    margin-right:2%;
+        margin-bottom:1%;
+        margin-left:6%;
+        margin-right:2%;
 
         
     }
+    /*Menylänkar för navigationsmenyn*/
     .sidenav a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 30px;
         color: #0001ff;
         display: block;
+        transition: 0.3s;
         
     }
+    /* Detta ändra färg när muspekaren ligger över*/
     .sidenav a:hover {
-        color: #111;
-        
+        color: #111; 
     }
-    .main {
-        margin-left: 160px;
+    /*Placerar "stäng" knappen i högra hörnet*/
+    .sidenav .closebtn {   /*Värderna skulle behövas att ändras*/
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /* använd detta om du vill trycka sidinnehållet till höger när du öppnar sidnavigeringen */
+    #main { /* ÄNDRA / ÄNDRA TILLBAKA FRÅN .main eller #main*/
+        transition: margin-left .5s; /* HAR ÄNDRATS FRÅN : margin-left: 160px; */
         padding: 0px 10px;
     
     }
+    /* På mindre skärmar, där höjden är mindre än 450px, ändra stil på sidan */
     @media screen and (max-height: 450px) {
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}

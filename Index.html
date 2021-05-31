@@ -13,8 +13,10 @@
     
         <h1>Iceland</h1>
     </div>
-    <div class="sidenav">
-        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
+    <!--HTML delen av våran navigationsbar-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <h1>Links</h1>
         <br>
         <hr>
@@ -27,9 +29,16 @@
         <a href="#">4. Closure</a>
         <hr>
         </div>
-    <!--<span onclick="openNav()">open</span> -->
-    <div id="main">
 
+    <!-- Använder vilkets element som helst för att öppna våran navigation bar-->
+    <span onclick="openNav()">Nav bar</span>
+
+    <!--<span onclick="openNav()">open</span> -->
+
+    <!--Lägg till allt sidinnehåll i denna div som navigationsbaren ska trycka sidinnehållet till höger-->
+    <div id="main">
+        <!--Bara ett test, ta bort text efter-->
+         <p>Test</p>
     </div>
 
 
