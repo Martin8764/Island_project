@@ -10,17 +10,18 @@
     background-repeat:no-repeat;
     background-position: center;
 }
+/* Start sidans rubrik och knapp för att öppna nav bar*/
     #div1 {
         width:85%;
         height:20%;
         background-color:#ffffff;
         opacity:85%;
         margin-top:2%;
-    margin-bottom:3%;
-    margin-left:6%;
-    margin-right:4%;
-    font-size: 250%;
-    text-align: center;
+        margin-bottom:3%;
+        margin-left:6%;
+        margin-right:4%;
+        font-size: 250%;
+        text-align: center;
 
     }
     /* sidans navigeringsmeny */
@@ -57,16 +58,17 @@
     .sidenav a:hover {
         color: #111; 
     }
-    /*Placerar "stäng" knappen i högra hörnet*/
-    .sidenav .closebtn {   /*Värderna skulle behövas att ändras*/
+    /*Placerar "Open navigation bar" i div1 */
+    .sidenav .openbtn {  
         position: absolute;
         top: 16%; 
         left: 4%;
         font-size: 36px;
         margin-left: 50px;
     }
-span
-{
+    /* Knapp för ett kryss i nav bar. */
+    span
+    {
     text-align: right;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -76,10 +78,10 @@ span
     transition: 0.3s;
     
     
-}
+    }
     /* använd detta om du vill trycka sidinnehållet till höger när du öppnar sidnavigeringen */
-    #main { /* ÄNDRA / ÄNDRA TILLBAKA FRÅN .main eller #main*/
-        transition: margin-left .5s; /* HAR ÄNDRATS FRÅN : margin-left: 160px; */
+    #main { 
+        transition: margin-left .5s; 
         padding: 0px 10px;
     
     }
@@ -88,6 +90,7 @@ span
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
     }
+    /* bild på startsidan */
     #Header {
         width:56%;
         height:35%;
@@ -104,6 +107,7 @@ span
         margin-left:2%;
         margin-right:4%;
     }
+    /* div för introduction text*/
     #Introduction {
         width:56%;
         height:100%;
@@ -111,12 +115,12 @@ span
         text-align: center;
         float:left;
         opacity:85%;
-
-    margin-bottom:1%;
-    margin-left:2%;
-    margin-right:4%;
+        margin-bottom:1%;
+        margin-left:2%;
+        margin-right:4%;
         
     }
+    
     #Footer {
         width:85%;
         height:10%;
