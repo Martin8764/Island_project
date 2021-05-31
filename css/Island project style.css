@@ -64,6 +64,18 @@
         font-size: 36px;
         margin-left: 50px;
     }
+span
+{
+    text-align: right;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #0001ff;
+    display: block;
+    transition: 0.3s;
+    
+    
+}
     /* använd detta om du vill trycka sidinnehållet till höger när du öppnar sidnavigeringen */
     #main { /* ÄNDRA / ÄNDRA TILLBAKA FRÅN .main eller #main*/
         transition: margin-left .5s; /* HAR ÄNDRATS FRÅN : margin-left: 160px; */
