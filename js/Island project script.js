@@ -1,8 +1,8 @@
-// Ställ in sidans navigationsbredd till X antal px
+// Ställ in sidans navigationsbredd till 0px
 function openNav() {
     document.getElementById("mySidenav").style.width = "0px";
 }
-// Ställer in sidans navigationsbredd till 0
+// Ställer in sidans navigationsbredd till 316px
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "316";
+    document.getElementById("mySidenav").style.width = "316px";
 }
