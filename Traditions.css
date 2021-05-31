@@ -5,7 +5,7 @@
  
     }
     body{
-    background:url();
+    background:url(https://scitechdaily.com/images/Great-White-Shark-Open-Mouth.jpg);
     background-size:cover;    
     background-repeat: no-repeat;
     
@@ -15,16 +15,18 @@
     #Logo {
     width:80%;
     height:10vh;
-    background-color:grey;
+    background-color:#ffffff;
     margin-top:3%;
     margin-bottom:2%;
     margin-left:10%;
     margin-right:4%;
-    opacity: 90%;
+    opacity: 85%;
+    font-size: 250%;
     }
     #Header {
     width:80%;
     height:30vh;
+
     background-color:grey;
     background-image: url("img/Iceland-Ice-Skating.jpg");
     background-size: cover;
@@ -34,26 +36,30 @@
     margin-bottom:2%;
     margin-left:10%;
     margin-right:4%;
+    opacity: 85%;
     }
     #TextArea {
     width:80%;
     height:170vh;
-    background-color:gray;
+    background-color:#ffffff;
     text-align: center;
     float:left;
+    font-size: 200%;
     margin-top:1%;
     margin-bottom:2%;
     margin-left:10%;
     margin-right:4%;
+    opacity: 85%;
     
     }
     
     #Footer {
     width:80%;
     height:10vh;
-    background-color:gray;
+    background-color:#ffffff;
     text-align: center;
     float:left;
+    opacity: 85%;
     margin-top:1%;
     margin-bottom:4%;
     margin-left:10%;
