@@ -23,7 +23,7 @@ background-size:cover;
 
     }
     .sidenav { 
-        height: 135.5vh; /* ta bort för "auto" height */
+        height: 187.5vh; /* ta bort för "auto" height */
         width: 25%; 
         z-index: 1;
         top: 0;
